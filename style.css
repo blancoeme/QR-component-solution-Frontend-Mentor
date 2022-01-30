@@ -6,6 +6,8 @@ body {
     align-items: center;
     background-color: hsl(212, 45%, 89%);
     font-family: 'Outfit', sans-serif;
+    padding:0;
+    margin:0;
 }
 .flex-container {
     display: flex;
@@ -14,7 +16,7 @@ body {
     align-items: center;
     width: 290px;
     background-color: white;
-    padding: 15px 15px 41px 15px;
+    padding: 15px 15px 30px 15px;
     margin:0;
     border-radius:20px;
     border: 1px solid hsl(212, 45%, 89%);
@@ -28,20 +30,22 @@ body {
     background-image: url('img/image-qr-code.png');
     background-size: contain;
 }
-.heading {
+.heading h1{
+    color: hsl(218, 44%, 22%);
     width: 100%;
     text-align:center;
     margin-top: 20px;
     font-size: 1.4rem;
     font-weight: 700;
 }
-.text {
+.text p{
     display:block;
     box-sizing: border-box;
+    color: hsl(220, 15%, 55%);
     width: 100%;
     text-align:center;
+    margin-top:0;
     font-size: 1rem;
-    margin-top:10px;
     font-weight: 400;
     padding-inline:10px;
 }
